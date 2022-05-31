@@ -47,14 +47,17 @@ nav {
 .open-button {
   display: block;
   width: 55px;
-  margin-top: -16px;
-  margin-left: -19px;
+  margin-top: -3px;
+  margin-left: 8px;
+  color: #4c4c4c;
 }
 
 .close-button {
   display: none;
   width: 20px;
   margin: 1.3rem;
+  margin-top: 0px;
+  margin-left: 8px;
 }
 
 .open-menu .open-button {
@@ -64,6 +67,8 @@ nav {
 .open-menu .close-button {
   display: block;
   color: #fff;
+  margin-top: 0;
+  margin-left: 8px;
 }
 
 #logo {
@@ -89,6 +94,11 @@ nav {
   transform: translateX(-100%);
   transition: transform 1.5s;
   text-align: center;
+}
+
+.lists ul {
+  text-decoration: none;
+  list-style: none;
 }
 
 .lists li {

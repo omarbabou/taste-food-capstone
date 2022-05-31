@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/omarbabou/taste-food-capstone-/issues"
   },
-  "homepage": "https://github.com/omarbabou/taste-food-capstone-#readme"
+  "homepage": "https://github.com/omarbabou/taste-food-capstone-#readme",
+  "devDependencies": {
+    "hint": "^6.2.0"
+  }
 }

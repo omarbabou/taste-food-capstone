@@ -48,7 +48,7 @@ nav {
   display: block;
   width: 55px;
   margin-top: -3px;
-  margin-left: 8px;
+  margin-left: 0;
   color: #4c4c4c;
 }
 
@@ -118,4 +118,32 @@ nav {
 
 .nav-btn {
   display: none;
+}
+
+/*------------------- container section ----------------------*/
+
+.container {
+  margin-top: 55px;
+  color: #172b4d;
+}
+
+.container .title {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0 0 10px 30px auto;
+  margin-left: 26px;
+  width: 80%;
+  color: #ec5242;
+}
+
+.container .second-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  width: 80%;
+  margin: 0 0 10px 30px auto;
+  margin-left: 26px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #ec5242;
 }

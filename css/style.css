@@ -79,12 +79,8 @@ nav {
   height: 100vh;
   z-index: 1;
   padding: 2rem;
-  background: rgb(39, 42, 49);
-  background: linear-gradient(
-    0deg,
-    rgba(39, 42, 49, 1) 0%,
-    rgba(172, 168, 168, 1) 100%
-  );
+  background: #4c4c4c;
+  opacity: 1;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -108,4 +104,8 @@ nav {
 .open-menu .lists {
   transform: translateX(0);
   z-index: 5;
+}
+
+.nav-btn {
+  display: none;
 }

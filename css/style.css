@@ -179,13 +179,57 @@ nav {
 
 /*------------------ Card Section ------------------*/
 
-.content-card {
+.container-2 {
+  background-color: #272a31;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-2 h3 {
   width: 100%;
+  margin: 0 0 10px 30px auto;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-size: 24.5px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.content-card {
+  width: 92%;
   min-height: 100px;
   background-color: rgba(226, 226, 226, 0.151);
   margin: 1rem 0;
-  padding: -50px;
+  margin-left: 0.8rem;
+  margin-right: 1rem;
+  padding: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.content-card img {
+  width: 12%;
+  height: 10%;
+  background-color: #fff;
+  margin-left: 8px;
+}
+
+.content-card h4 {
+  color: #ec5242;
+  text-align: start;
+  font-size: 1rem;
+  width: 20%;
+}
+
+.content p {
+  width: 56%;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 100;
 }

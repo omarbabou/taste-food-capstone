@@ -176,3 +176,16 @@ nav {
   margin: 0 0 10px 30px auto;
   margin-top: -13px;
 }
+
+/*------------------ Card Section ------------------*/
+
+.content-card {
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(226, 226, 226, 0.151);
+  margin: 1rem 0;
+  padding: -50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

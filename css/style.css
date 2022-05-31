@@ -58,3 +58,17 @@ nav {
   transform: translateX(-100%);
   transition: transform 1s;
 }
+
+ul li {
+  margin-right: 10px;
+}
+
+.ul-list li {
+  padding-top: 1rem;
+}
+
+.ul-list li a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}

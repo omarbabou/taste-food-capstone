@@ -36,6 +36,36 @@ nav {
   display: none;
 }
 
+.icons {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 20;
+  color: #6070ff;
+}
+
+.open-button {
+  display: block;
+  width: 55px;
+  margin-top: -16px;
+  margin-left: -19px;
+}
+
+.close-button {
+  display: none;
+  width: 20px;
+  margin: 1.3rem;
+}
+
+.open-menu .open-button {
+  display: none;
+}
+
+.open-menu .close-button {
+  display: block;
+  color: #fff;
+}
+
 #logo {
   display: none;
 }
@@ -44,19 +74,25 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   width: 100%;
+  height: 100vh;
+  z-index: 1;
   padding: 2rem;
-  padding-top: 130px;
-  padding-left: 10%;
-  padding-right: 90%;
-  height: 880px;
-  background-color: #6070ff;
-  opacity: 0.9;
+  background: rgb(39, 42, 49);
+  background: linear-gradient(
+    0deg,
+    rgba(39, 42, 49, 1) 0%,
+    rgba(172, 168, 168, 1) 100%
+  );
+  color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
   transform: translateX(-100%);
-  transition: transform 1s;
+  transition: transform 1.5s;
+  text-align: center;
 }
 
 .lists li {

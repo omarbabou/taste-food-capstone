@@ -12,3 +12,5 @@ const menuLink = document.querySelectorAll('.ul-link');
 menuLink.forEach((e) => e.addEventListener('click', () => {
   body.classList.remove('open-menu');
 }));
+
+// --------------------------  MENU SECTION -----------------------

@@ -129,43 +129,51 @@ nav {
 
 .container .title {
   font-weight: 700;
-  font-size: 24px;
-  margin: 0 0 10px 30px auto;
-  margin-left: 26px;
-  width: 80%;
+  font-size: 25px;
+  width: auto;
+  padding-right: 10%;
+  padding-left: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ec5242;
 }
 
 .container .second-title {
   font-weight: 900;
-  font-size: 38px;
+  font-size: 44px;
   line-height: 52px;
-  width: 90%;
-  margin: 0 0 10px 30px auto;
-  margin-left: 26px;
-  margin-top: 10px;
+  padding-right: 10%;
+  padding-left: 7%;
+  margin-top: -5px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
   color: #ec5242;
 }
 
 .container .desc {
   font-weight: 400;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 30px;
   background-color: #f3f3f3;
-  padding: 17px;
-  margin: 1.7rem 0;
-  margin-top: -15px;
-  margin-left: 8%;
+  padding: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #fff;
-  width: 85.3%;
+  width: 85%;
 }
 
 .container h3 {
-  width: 22rem;
-  margin: 0 0 10px 30px auto;
-  margin-left: 8%;
-  margin-top: 10px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 7%;
   font-size: 24.5px;
   font-weight: 800;
   color: #272a31;
@@ -189,24 +197,23 @@ nav {
 }
 
 .container-2 h3 {
-  width: 100%;
-  margin: 0 0 10px 30px auto;
-  margin-left: 2%;
-  margin-top: 10px;
+  width: auto;
   font-size: 24.5px;
   font-weight: 300;
   color: #fff;
-  text-align: center;
-  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
 }
 
 .content-card {
-  width: 92%;
+  width: 100%;
   min-height: 100px;
   background-color: rgba(226, 226, 226, 0.151);
   margin: 1rem 0;
-  margin-left: 0.8rem;
-  margin-right: 1rem;
+  padding-left: 7%;
+  padding-right: 100rem;
   padding: 1px;
   display: flex;
   justify-content: space-between;
@@ -218,6 +225,9 @@ nav {
   height: 10%;
   background-color: #fff;
   margin-left: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content-card h4 {
@@ -230,6 +240,26 @@ nav {
 .content p {
   width: 56%;
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 100;
+}
+
+.order-btn {
+  margin: 37px auto;
+  margin-bottom: 22px;
+  margin-left: 28%;
+  width: auto;
+  height: 70px;
+  color: var(--main-bg-color);
+  background-color: #ec5242;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 1%;
+  padding-top: 1%;
 }

@@ -29,7 +29,8 @@ nav {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  padding: 1.6rem;
+  padding-left: 5%;
+  position: fixed;
 }
 
 .top-nav {
@@ -47,17 +48,13 @@ nav {
 .open-button {
   display: block;
   width: 55px;
-  margin-top: -3px;
-  margin-left: 0;
+  padding-top: 15%;
   color: #4c4c4c;
 }
 
 .close-button {
   display: none;
   width: 20px;
-  margin: 1.3rem;
-  margin-top: 0px;
-  margin-left: 8px;
 }
 
 .open-menu .open-button {
@@ -67,8 +64,7 @@ nav {
 .open-menu .close-button {
   display: block;
   color: #fff;
-  margin-top: 0;
-  margin-left: 8px;
+  padding-top: 83%;
 }
 
 #logo {
@@ -123,8 +119,14 @@ nav {
 /*------------------- container section ----------------------*/
 
 .container {
-  margin-top: 55px;
+  padding-bottom: 2%;
+  margin-top: -5.5%;
+  padding-top: 30%;
   color: #172b4d;
+  background-image: url('/graphics/mobile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .container .title {
@@ -151,7 +153,13 @@ nav {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  color: #ec5242;
+  color: transparent;
+  background-image: url('/graphics/mobile-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .container .desc {

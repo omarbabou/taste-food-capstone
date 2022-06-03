@@ -20,7 +20,7 @@ const capstone = [
   {
     id: 1,
     image: '/graphics/user-1.jpg',
-    name: 'Salt Bae',
+    name: 'Carrie Brewer',
     role: 'A smart assistant to make driving more safe.',
     descript:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking.',
@@ -36,7 +36,7 @@ const capstone = [
   {
     id: 3,
     image: '/graphics/user-3.jpg',
-    name: 'Salt Bae',
+    name: 'Jane Kempczinski',
     role: 'A smart assistant to make driving more safe.',
     descript:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking.',
@@ -44,7 +44,7 @@ const capstone = [
   {
     id: 4,
     image: '/graphics/user-2.jpg',
-    name: 'Salt Bae',
+    name: 'Sabir Sami',
     role: 'A smart assistant to make driving more safe.',
     descript:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking.',
@@ -52,7 +52,7 @@ const capstone = [
   {
     id: 5,
     image: '/graphics/user-1.jpg',
-    name: 'Salt Bae',
+    name: 'Indra Nooyi',
     role: 'A smart assistant to make driving more safe.',
     descript:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking.',
@@ -60,7 +60,7 @@ const capstone = [
   {
     id: 6,
     image: '/graphics/user-3.jpg',
-    name: 'Salt Bae',
+    name: 'Max Keith',
     role: 'A smart assistant to make driving more safe.',
     descript:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking.',

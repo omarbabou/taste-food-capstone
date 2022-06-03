@@ -380,3 +380,12 @@ nav {
   padding: 0.2rem;
   padding-top: 2.5rem;
 }
+
+/*------------------------ Footer Section ------------------------*/
+
+.footer__copy {
+  text-align: center;
+  font-size: 20px;
+  color: #272a31;
+  margin-top: 3.5rem;
+}

@@ -340,3 +340,43 @@ nav {
   align-items: center;
   margin-top: -12px;
 }
+
+/*--------------------------- Partner Section ------------------------*/
+
+.partner-container {
+  background-color: #272a31;
+  color: #d3d3d3;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.list-partner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.list-partner img {
+  width: 100px;
+}
+
+.list-partner li {
+  margin: 1rem 2rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.fifth-title {
+  width: auto;
+  font-size: 24.5px;
+  font-weight: 300;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  padding-top: 2.5rem;
+}

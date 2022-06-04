@@ -33,6 +33,12 @@ nav {
   position: fixed;
 }
 
+hr {
+  border: 1px solid #ec5242;
+  width: 14vw;
+  margin-top: -10px;
+}
+
 .top-nav {
   display: none;
 }
@@ -99,6 +105,7 @@ nav {
 
 .lists li {
   padding-top: 1rem;
+  margin: 1rem;
 }
 
 .lists li a {
@@ -330,6 +337,7 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  margin-top: 5px;
 }
 
 .show-more {
@@ -391,9 +399,22 @@ nav {
 
 /*------------------------ Footer Section ------------------------*/
 
-.footer__copy {
-  text-align: center;
-  font-size: 20px;
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 100px;
+}
+
+footer img {
+  width: 65%;
+  height: 90px;
+  margin-top: -7px;
+}
+
+.footer-copy {
+  font-size: 15px;
   color: #272a31;
-  margin-top: 1.5rem;
+  margin-left: 10px;
+  font-weight: bold;
 }

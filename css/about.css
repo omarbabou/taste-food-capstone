@@ -133,7 +133,7 @@ hr {
   margin-top: -5.5%;
   padding-top: 30%;
   color: #172b4d;
-  background-image: url('/graphics/mobile.png');
+  background-image: url('/graphics/');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -362,6 +362,245 @@ footer img {
   width: 65%;
   height: 90px;
   margin-top: -7px;
+}
+
+.footer-copy {
+  font-size: 15px;
+  color: #272a31;
+  margin-left: 10px;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 5px;
+    max-width: 100%;
+  }
+
+  header {
+    height: auto;
+    box-shadow: 2px 0 10px #adadad;
+    display: flex;
+    flex-direction: column;
+    background: red;
+  }
+
+  nav {
+    height: auto;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: green;
+  }
+
+  hr {
+    border: 1px solid #ec5242;
+    width: 4vw;
+    margin-top: -10px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    color: black;
+    font-size: 0.4rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .top-nav {
+    background-color: black;
+    height: 200px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .lists {
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: #272a31;
+    display: flex;
+    align-content: center;
+    transform: translateX(0);
+    transition: none;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .lists li a {
+    font-size: 16px;
+    color: #272a31;
+    text-decoration: none;
+  }
+
+  #logo {
+    display: flex;
+    background: black;
+    margin-left: 76px;
+  }
+
+  #logo img {
+    padding: 8px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+  }
+
+  section {
+    min-width: 100vw;
+  }
+
+  .container {
+    /* padding: 8rem 9rem;
+    padding-top: 13.5rem; */
+    padding: 8rem 9rem;
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+    color: #172b4d;
+    background-image: url('/graphics/desk.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1098px;
+  }
+
+  .container .title {
+    color: #ec5242;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-bottom: 7px;
+    justify-content: center;
+    align-items: center;
+    width: 912px;
+    margin-bottom: 20px;
+    margin-left: 183px;
+    font-weight: 100;
+  }
+
+  .container .second-title {
+    width: 844px;
+    line-height: 61px;
+    font-size: 61px;
+    color: #ec5242;
+    margin: 0 auto;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+    padding-right: 5rem;
+    padding-left: 11rem;
+  }
+
+  .container .desc {
+    width: 670px;
+    font-size: 14px;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    margin-left: 18rem;
+  }
+
+  .container .cnt-text {
+    font-size: 12px;
+    padding: 5%;
+    padding-right: 13%;
+    padding-left: 17%;
+  }
+
+  .container-2 {
+    display: none;
+  }
+
+  .container-2 p {
+    width: 95%;
+    font-size: 14px;
+    color: #272a31;
+    font-weight: bold;
+    padding-top: 0;
+    padding-left: 22%;
+    padding-right: 1%;
+    margin-top: -60px;
+    font-weight: 100;
+  }
+
+  .container-2 .third-title {
+
+  }
+
+  .taste-img {
+    border: 1px solid #a7a7a7;
+    padding: 15px;
+    padding-left: 10%;
+    width: 300px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 167px;
+    margin: 1.5rem auto;
+    margin-top: 15px;
+}
+
+.taste-container {
+  padding: 2.7rem;
+}
+
+.food1, .food2 {
+  width: 100%;
+  margin: 1rem;
+}
+
+.tst-food {
+  display: flex;
+  width: 65%;
+  margin: 0 auto; 
+}
+
+.tst-food h3 {
+  font-size: 32px;
+  margin: 1rem;
+} 
+
+.tst-food p{
+  font-size: 21px;
+  margin: 1rem;
+}
+
+.partner-container {
+  min-width: 1098px;
+}
+
+.list-partner {
+  width: 40%;
+  margin: 2rem auto;
+  flex-wrap: nowrap;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  height: 100px;
+  min-width: 1098px;
+}
+
+footer img {
+  width: 13%;
+  height: 121px;
+  margin-top: -16px;
 }
 
 .footer-copy {

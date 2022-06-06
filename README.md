@@ -4,13 +4,12 @@
 > Capstone Project desktop and mobile versions.
 ## Built With
 
-- HTML/CSS
+- HTML5/CSS3
 - JAVASCRIPT
-- Linters
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://omarbabou.github.io/)
+[Live Demo Link]()
 
 ## Getting Started
 
@@ -54,9 +53,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
+The [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/) requires that you give appropriate credit to the author. Therefore, you must do it in the README of your project.
 
 ## 📝 License
 

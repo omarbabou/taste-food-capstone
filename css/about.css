@@ -62,7 +62,7 @@ hr {
   display: none;
   width: 20px;
   margin: 1.3rem;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 8px;
 }
 
@@ -126,7 +126,7 @@ hr {
   display: none;
 }
 
-/*------------------- container section ----------------------*/
+/* ------------------- container section ---------------------- */
 
 .container {
   padding-bottom: 2%;
@@ -168,7 +168,6 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -198,8 +197,8 @@ hr {
 }
 
 .container p {
+  margin: 0 0 10px 30px;
   margin-left: 8%;
-  margin: 0 0 10px 30px auto;
   margin-top: -13px;
 }
 
@@ -218,9 +217,9 @@ hr {
 
 .container-2 .second-title {
   width: 100%;
+  padding: 15%;
   padding: 5%;
   padding-left: 15%;
-  padding: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,7 +232,6 @@ hr {
   width: 95%;
   font-size: 14px;
   color: #272a31;
-  font-weight: bold;
   padding-top: 0;
   padding-left: 11%;
   padding-right: 1%;
@@ -251,6 +249,12 @@ hr {
   height: 167px;
   margin: 1.5rem auto;
   margin-top: 15px;
+}
+
+footer img {
+  width: 65%;
+  height: 90px;
+  margin-top: -7px;
 }
 
 .taste-img img {
@@ -272,7 +276,6 @@ hr {
   margin-bottom: 1.5rem;
   padding-left: 5%;
   padding-right: 5%;
-  text-align: center;
   color: #272a31;
 }
 
@@ -281,7 +284,8 @@ hr {
 }
 
 .food1 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(247, 104, 22, 0.521) 100%,
       rgba(235, 235, 235, 0.432) 100%
@@ -290,7 +294,8 @@ hr {
 }
 
 .food2 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(247, 104, 22, 0.521) 100%,
       rgba(235, 235, 235, 0.432) 100%
@@ -309,7 +314,7 @@ hr {
   margin: 1.4rem auto;
 }
 
-/*--------------------------- Partner Section ------------------------*/
+/* --------------------------- Partner Section ------------------------ */
 
 .partner-container {
   background-color: #272a31;
@@ -349,19 +354,13 @@ hr {
   padding-top: 2.5rem;
 }
 
-/*------------------------ Footer Section ------------------------*/
+/* ------------------------ Footer Section ------------------------ */
 
 footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   height: 100px;
-}
-
-footer img {
-  width: 65%;
-  height: 90px;
-  margin-top: -7px;
 }
 
 .footer-copy {
@@ -449,6 +448,12 @@ footer img {
     margin-left: 76px;
   }
 
+  footer img {
+    width: 13%;
+    height: 121px;
+    margin-top: -16px;
+  }
+
   #logo img {
     padding: 8px;
     width: 70px;
@@ -483,7 +488,6 @@ footer img {
     color: #ec5242;
     margin: 0 auto;
     font-size: 30px;
-    margin-bottom: 7px;
     justify-content: center;
     align-items: center;
     width: 912px;
@@ -495,7 +499,8 @@ footer img {
   .container .second-title {
     width: 844px;
     line-height: 61px;
-    font-size: 61px;
+
+    /*  font-size: 61px; */
     color: #ec5242;
     margin: 0 auto;
     font-size: 42px;
@@ -530,16 +535,11 @@ footer img {
     width: 95%;
     font-size: 14px;
     color: #272a31;
-    font-weight: bold;
     padding-top: 0;
     padding-left: 22%;
     padding-right: 1%;
     margin-top: -60px;
     font-weight: 100;
-  }
-
-  .container-2 .third-title {
-
   }
 
   .taste-img {
@@ -552,60 +552,56 @@ footer img {
     height: 167px;
     margin: 1.5rem auto;
     margin-top: 15px;
-}
+  }
 
-.taste-container {
-  padding: 2.7rem;
-}
+  .taste-container {
+    padding: 2.7rem;
+  }
 
-.food1, .food2 {
-  width: 100%;
-  margin: 1rem;
-}
+  .food1,
+  .food2 {
+    width: 100%;
+    margin: 1rem;
+  }
 
-.tst-food {
-  display: flex;
-  width: 65%;
-  margin: 0 auto; 
-}
+  .tst-food {
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+  }
 
-.tst-food h3 {
-  font-size: 32px;
-  margin: 1rem;
-} 
+  .tst-food h3 {
+    font-size: 32px;
+    margin: 1rem;
+  }
 
-.tst-food p{
-  font-size: 21px;
-  margin: 1rem;
-}
+  .tst-food p {
+    font-size: 21px;
+    margin: 1rem;
+  }
 
-.partner-container {
-  min-width: 1098px;
-}
+  .partner-container {
+    min-width: 1098px;
+  }
 
-.list-partner {
-  width: 40%;
-  margin: 2rem auto;
-  flex-wrap: nowrap;
-}
+  .list-partner {
+    width: 40%;
+    margin: 2rem auto;
+    flex-wrap: nowrap;
+  }
 
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  height: 100px;
-  min-width: 1098px;
-}
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    height: 100px;
+    min-width: 1098px;
+  }
 
-footer img {
-  width: 13%;
-  height: 121px;
-  margin-top: -16px;
-}
-
-.footer-copy {
-  font-size: 15px;
-  color: #272a31;
-  margin-left: 10px;
-  font-weight: 100;
+  .footer-copy {
+    font-size: 15px;
+    color: #272a31;
+    margin-left: 10px;
+    font-weight: 100;
+  }
 }

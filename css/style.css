@@ -123,8 +123,7 @@ hr {
   display: none;
 }
 
-/*------------------- container section ----------------------*/
-
+/* -------------------container section---------------------- */
 .container {
   padding-bottom: 2%;
   margin-top: -5.5%;
@@ -165,7 +164,6 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -195,13 +193,12 @@ hr {
 }
 
 .container p {
+  margin: 0 0 10px 30px;
   margin-left: 8%;
-  margin: 0 0 10px 30px auto;
   margin-top: -13px;
 }
 
-/*------------------ Card Section ------------------*/
-
+/* ------------------Card Section------------------ */
 .container-2 {
   background-color: #272a31;
   color: #fff;
@@ -227,12 +224,18 @@ hr {
   min-height: 100px;
   background-color: rgba(226, 226, 226, 0.151);
   margin: 1rem 0;
+  padding: 1px;
   padding-left: 7%;
   padding-right: 100rem;
-  padding: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+footer img {
+  width: 65%;
+  height: 90px;
+  margin-top: -7px;
 }
 
 .content-card img {
@@ -280,7 +283,7 @@ hr {
   padding-top: 1%;
 }
 
-/*-------------------------- Menu Section ---------------------------*/
+/* -------------------------- Menu Section --------------------------- */
 
 .menu-container {
   padding: 10px;
@@ -357,7 +360,7 @@ hr {
   margin-top: -12px;
 }
 
-/*--------------------------- Partner Section ------------------------*/
+/* --------------------------- Partner Section ------------------------ */
 
 .partner-container {
   background-color: #272a31;
@@ -397,19 +400,13 @@ hr {
   padding-top: 2.5rem;
 }
 
-/*------------------------ Footer Section ------------------------*/
+/* ------------------------ Footer Section ------------------------ */
 
 footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   height: 100px;
-}
-
-footer img {
-  width: 65%;
-  height: 90px;
-  margin-top: -7px;
 }
 
 .footer-copy {

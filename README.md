@@ -4,6 +4,10 @@
 
 > Capstone Project desktop and mobile versions.
 
+This is a screenshot of my capstone
+
+![screenshot](/desk.png) ![screenshot](/mobile.jpg)
+
 ## Built With
 
 - HTML5/CSS3
@@ -15,11 +19,10 @@ clone repo: https://github.com/omarbabou/taste-food-capstone-.git
 
 ### Live
 
-1. Linters
-
+To see live project go to: [Live_demo](https://kandy-peter.github.io/ELC-Congo-First-capston-project/)
 ### Project Demo
 
-check this Loom link to watch the video.
+check this [Loom](https://www.loom.com/share/03e1bd463d8849e9bd98c59566d1a777) link to watch the video.
 
 ### Install
 

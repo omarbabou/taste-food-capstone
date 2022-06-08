@@ -1,14 +1,14 @@
 const body = document.querySelector('body');
-const navigation = document.querySelector('.icons');
+const navMenu = document.querySelector('.toggle');
 const menuService = document.querySelector('.menu-services');
 
 // --------------------MOBILE-MENU--------------------------
 
-navigation.addEventListener('click', () => {
+navMenu.addEventListener('click', () => {
   body.classList.toggle('open-menu');
 });
 
-const menuLink = document.querySelectorAll('.ul-link');
+const menuLink = document.querySelectorAll('.menu-link');
 
 menuLink.forEach((e) => e.addEventListener('click', () => {
   body.classList.remove('open-menu');
@@ -84,25 +84,3 @@ for (let i = 0; i < capstone.length; i += 1) {
     
     `;
 }
-
-/* const button = document.querySelector('.show-more');
-const menu = document.querySelectorAll('.user-card');
-let state = true;
-
-button.addEventListener('click', (e) => {
-  e.preventDefault();
-  if (state) {
-    menu.forEach((team) => {
-      team.classList.add('show-more');
-      button.innerHTML = 'See less';
-    });
-    state = false;
-  } else {
-    state = false;
-    menu.forEach((team) => {
-      team.classList.remove('show-more');
-      button.innerHTML = 'Show more';
-    });
-    state = true;
-  }
-}); */

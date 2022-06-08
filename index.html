@@ -30,45 +30,46 @@
     <title>Taste Food Capstone</title>
   </head>
   <body>
-    <div class="top-nav">
-      <ul>
-        <li>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li><a href="#">English</a></li>
-        <li><a href="#">Log In</a></li>
-      </ul>
-    </div>
-   <header>
+    <header>
+      <div class="top-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
       <nav>
+        <div class="toggle">
+          <i class="fa fa-bars open-icon"></i>
+          <i class="fa fa-times close-icon"></i>
+        </div>
         <div id="logo">
           <a href="./index.html">
-            <img alt="image" src="/graphics/food.png" >
+            <img src="/graphics/food.png" alt="header-logo" />
           </a>
         </div>
-        <div class="icons">
-          <i class="fa fa-bars open-button"></i>
-          <img src="graphics/Icon.png" class="close-button" alt="" />
-        </div>
-        <div class="lists">
+
+        <div class="menu-list">
           <ul>
-            <li class="ul-link"><a href="./about.html">About</a></li>
-            <li class="ul-link"><a href="#">Services</a></li>
-            <li class="ul-link"><a href="#">Menu</a></li>
-            <li class="ul-link"><a href="#">Partners</a></li>
+            <li class="menu-link"><a href="./about.html">About</a></li>
+            <li class="menu-link"><a href="#">Services</a></li>
+            <li class="menu-link"><a href="#">Menu</a></li>
+            <li class="menu-link"><a href="#">Partners</a></li>
           </ul>
-          <button class="ul-link nav-btn" type="button">Contact us</button>
+          <button class="menu-link menu-btn">ORDER NOW</button>
         </div>
       </nav>
-    </header> 
+    </header>
 
     <main class="main">
       <section class="container">
         <h2 class="title">"Hello!Rwandan People"</h2>
-        <h2 class="second-title">Taste food Try the best food of the week</h2>
+        <h2 class="second-title">Tasty food Try the best food of the week</h2>
         <p class="desc">
           We cook the best food in the entire city, with excellent customer
           service, the best meals and at the best price, visit us.
@@ -81,8 +82,8 @@
 
       <section class="container-2">
         <h3 class="third-title">Our Services</h3>
-        <hr>
-        <br>
+        <hr />
+        <br />
         <div class="content">
           <div class="content-card">
             <img src="graphics/icons8-burger-64.png" alt="image" />
@@ -118,7 +119,7 @@
             <p>
               We offer our clients excellent quality services for many years.
             </p>
-          </div> 
+          </div>
         </div>
         <button class="order-btn" type="submit">Order now</button>
       </section>
@@ -131,7 +132,7 @@
 
       <section class="partner-container">
         <h3 class="fifth-title">Partners</h3>
-        <hr>
+        <hr />
         <ul class="list-partner">
           <li>
             <img src="graphics/kfc1.png" alt="kfc-logo" />
@@ -153,10 +154,12 @@
 
       <footer>
         <img src="/graphics/food.png" alt="" />
-        <p class="footer-copy">&#169; 2021 Taste Food Restaurant. all right reserved.</p>
-    </footer>
-    <br>
-  </main>
+        <p class="footer-copy">
+          &#169; 2021 Tasty Food Restaurant. all right reserved.
+        </p>
+      </footer>
+      <br />
+    </main>
     <script src="script/app.js"></script>
   </body>
 </html>

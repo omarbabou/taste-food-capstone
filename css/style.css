@@ -84,11 +84,12 @@ hr {
   z-index: 1;
   padding: 2rem;
   background: rgb(39, 42, 49);
-  background: linear-gradient(
-    0deg,
-    rgba(39, 42, 49, 1) 0%,
-    rgba(172, 168, 168, 1) 100%
-  );
+  background:
+    linear-gradient(
+      0deg,
+      rgba(39, 42, 49, 1) 0%,
+      rgba(172, 168, 168, 1) 100%
+    );
   color: #fafafa;
   display: flex;
   flex-direction: column;
@@ -152,7 +153,7 @@ hr {
   justify-content: center;
 }
 
-/***********************container section**************************/
+/***********************  container section  **************************/
 .container {
   padding-bottom: 2%;
   margin-top: -5.5%;
@@ -227,7 +228,7 @@ hr {
   margin-top: -13px;
 }
 
-/**********************Card Section**************************/
+/**********************  Card Section  **************************/
 .container-2 {
   background-color: #272a31;
   color: #fff;
@@ -263,8 +264,9 @@ hr {
 
 footer img {
   width: 65%;
-  height: 90px;
-  margin-top: -7px;
+  height: 100px;
+  margin-top: 18px;
+  object-fit: cover;
 }
 
 .content-card img {
@@ -311,7 +313,7 @@ footer img {
   padding-top: 1%;
 }
 
-/**************************Menu Section *******************************/
+/************************** Menu Section *******************************/
 
 .menu-container {
   padding: 10px;
@@ -370,6 +372,7 @@ footer img {
   padding: 2rem;
   margin-top: 5px;
 }
+
 .fourth-title::after {
   position: absolute;
   content: '';
@@ -380,6 +383,7 @@ footer img {
   transform: translate(-50%, 50%);
   background-color: #ec5242;
 }
+
 .show-more {
   order: 3;
   width: 100%;
@@ -397,7 +401,7 @@ footer img {
   margin-top: -12px;
 }
 
-/*************************Partner Section******************************/
+/*************************  Partner Section  ******************************/
 
 .partner-container {
   background-color: #272a31;
@@ -437,13 +441,13 @@ footer img {
   padding-top: 2.5rem;
 }
 
-/*****************************Footer Section**************************/
+/*****************************  Footer Section  **************************/
 
 footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  height: 100px;
+  height: 168px;
 }
 
 .footer-copy {

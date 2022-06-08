@@ -35,6 +35,12 @@ nav {
   position: absolute;
 }
 
+hr {
+  border: 1px solid #ec5242;
+  width: 40px;
+  margin-top: -10px;
+}
+
 .top-nav {
   display: none;
 }
@@ -78,11 +84,12 @@ nav {
   z-index: 1;
   padding: 2rem;
   background: rgb(39, 42, 49);
-  background: linear-gradient(
-    0deg,
-    rgba(39, 42, 49, 1) 0%,
-    rgba(172, 168, 168, 1) 100%
-  );
+  background:
+    linear-gradient(
+      0deg,
+      rgba(39, 42, 49, 1) 0%,
+      rgba(172, 168, 168, 1) 100%
+    );
   color: #fafafa;
   display: flex;
   flex-direction: column;
@@ -146,7 +153,7 @@ nav {
   justify-content: center;
 }
 
-/************************Taste Container*************************/
+/************************ Taste Container *************************/
 
 .taste-img {
   border: 1px solid #a7a7a7;
@@ -162,20 +169,12 @@ nav {
 
 footer img {
   width: 65%;
-  height: 90px;
-  margin-top: -7px;
+  height: 100px;
+  margin-top: 18px;
 }
 
 .taste-img img {
   width: 88%;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 22px;
-  padding: 1.5rem;
-  margin-bottom: 20px;
-  font-weight: 100;
 }
 
 #taste-txt {
@@ -193,7 +192,8 @@ footer img {
 }
 
 .food1 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(247, 104, 22, 0.521) 100%,
       rgba(235, 235, 235, 0.432) 100%
@@ -202,7 +202,8 @@ footer img {
 }
 
 .food2 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(247, 104, 22, 0.521) 100%,
       rgba(235, 235, 235, 0.432) 100%
@@ -221,158 +222,32 @@ footer img {
   margin: 1.4rem auto;
 }
 
-/*********************Partner Section*********************/
-
-.partner-container {
-  background-color: #272a31;
-  color: #d3d3d3;
-  text-align: center;
-  padding-bottom: 0.5rem;
-}
-
-.list-partner {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 1rem;
-  margin-bottom: 2rem;
-}
-
-.list-partner img {
-  width: 100px;
-}
-
-.list-partner li {
-  margin: 1rem 2rem;
-  margin-top: 1.5rem;
-  display: flex;
-  align-items: center;
-}
-
-.fifth-title {
-  width: auto;
-  font-size: 24.5px;
-  font-weight: 300;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.2rem;
-  padding-top: 2.5rem;
-}
-
-/************************Footer Section*********************/
+/************************  Footer Section  *********************/
 
 footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  height: 100px;
+  background-color: #272a31;
+  height: 168px;
 }
 
 .footer-copy {
   font-size: 15px;
-  color: #272a31;
+  color: #fff;
   margin-left: 10px;
   font-weight: 100;
 }
 
-/************************CNT-1************************/
-
-.cnt-1 {
-  padding: 8rem 9rem;
-  padding-top: 6rem;
-  padding-bottom: 3rem;
-}
-
-.cnt-1 h2 {
-  width: 700px;
-}
-
-#fst-title {
-  font-size: 30px;
-}
-
-#scnd-title {
-  font-size: 52px;
-}
-
-.cnt-2 {
-  padding: 4rem 10rem;
-}
-
-.cnt-2 p {
-  width: 480px;
-  margin: 1.6rem auto;
-}
-
-#abt-logo {
-  width: 45%;
-}
-
-/************************CNT-1************************/
-
-.cnt-1 {
-  height: 100%;
-  color: #272a31;
-  padding: 2rem 1rem;
-  padding-top: 8rem;
-  padding-bottom: 4rem;
-  text-align: center;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(238, 238, 238, 1) 100%
-  );
-}
-
-#fst-title {
-  color: #ec5242;
-  margin: 0 auto;
-  font-size: 24px;
-  margin-bottom: 7px;
-  width: 100%;
-}
-
-#scnd-title {
-  color: #ec5242;
-  margin: 0 auto;
-  font-size: 36px;
-  text-transform: uppercase;
-  font-family: 'cocogoose', sans-serif;
-  margin-bottom: 1rem;
-  line-height: 52px;
-  margin-left: 6px;
-  max-width: 100%;
-}
-
-#descrpt {
-  border: 1px solid rgb(219, 219, 219);
-  background-color: #fafafa;
-  padding: 20px;
-  margin: 1.7rem auto;
-  font-weight: 100;
-  font-size: 16px;
-  max-width: 629px;
-  font-size: 14px;
-  text-align: center;
-  padding: 3rem;
-  margin-bottom: 4rem;
-}
+/************************  CNT-1  ************************/
 
 #txt-cntct {
   color: #272a31;
   font-size: 12px;
+  font-weight: 100;
 }
 
-/**********************CNT-2************************/
-
-.cnt-2 {
-  padding: 2rem 1rem;
-  text-align: center;
-  border-bottom: 1px solid #d3d3d3;
-}
+/**********************  CNT-2  ************************/
 
 .section-title {
   text-align: center;
@@ -393,34 +268,11 @@ footer {
   background-color: #ec5242;
 }
 
-.cnt-2 .section-title {
-  width: 80%;
-  margin: 0 auto;
-}
-
 footer p {
   font-size: 13px;
   color: #272a31;
   margin-left: 10px;
   font-weight: bold;
-}
-
-.cnt-2 p {
-  width: 95%;
-  font-size: 12px;
-  color: #272a31;
-  font-weight: bold;
-}
-
-#abt-logo {
-  width: 100%;
-  border: 1px solid #a7a7a7;
-  padding: 20px;
-  margin: 1.5rem auto;
-}
-
-#abt-logo img {
-  max-width: 90%;
 }
 
 @media screen and (min-width: 768px) {
@@ -481,25 +333,6 @@ footer p {
     align-items: center;
   }
 
-  #logo a {
-    color: #272a31;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    text-decoration: none;
-  }
-
-  #logo img {
-    width: 106px;
-    height: 70px;
-    object-fit: cover;
-  }
-
-  .open-menu {
-    display: none;
-  }
-
   .menu-list {
     position: relative;
     height: 100%;
@@ -515,11 +348,6 @@ footer p {
     text-align: center;
   }
 
-  .menu-list ul {
-    display: flex;
-    justify-content: space-around;
-  }
-
   .menu-list li,
   .menu-list a {
     color: rgb(15, 15, 15);
@@ -533,6 +361,37 @@ footer p {
     color: #ec5242;
   }
 
+  #logo a {
+    color: #272a31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  footer img {
+    width: 16%;
+    height: 80px;
+    margin-top: 14px;
+    object-fit: cover;
+  }
+
+  #logo img {
+    width: 106px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .open-menu {
+    display: none;
+  }
+
+  .menu-list ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .menu-btn {
     margin-top: 0;
     width: 150px;
@@ -541,13 +400,7 @@ footer p {
     font-size: 18px;
   }
 
-  footer img {
-    width: 13%;
-    height: 121px;
-    margin-top: -16px;
-  }
-
-  /*****************Container********************/
+  /*****************  Container  ********************/
 
   .main {
     display: flex;
@@ -681,45 +534,31 @@ footer p {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    height: 100px;
+    height: 140px;
     min-width: 598px;
+    background-color: #272a31;
   }
 
   .footer-copy {
     font-size: 15px;
-    color: #272a31;
-    margin-left: 10px;
+    color: #fff;
+    margin-left: 16px;
+    margin-top: 32px;
     font-weight: 100;
   }
 }
 
-/* -------------CNT-1--------------- */
-
-.cnt-1 {
-  padding: 8rem 9rem;
-  padding-top: 6rem;
-  padding-bottom: 3rem;
-}
+/****************** CNT-1 *******************/
 
 .cnt-1 h2 {
   width: 700px;
 }
 
-#fst-title {
-  font-size: 30px;
-}
-
-#scnd-title {
-  font-size: 52px;
-}
-
 #descrpt {
   border: 1px solid rgb(219, 219, 219);
   background-color: #fafafa;
-  padding: 20px;
   margin: 1.7rem auto;
   font-weight: 100;
-  font-size: 12px;
   max-width: 590px;
   font-size: 14px;
   text-align: center;
@@ -727,19 +566,7 @@ footer p {
   margin-bottom: 4rem;
 }
 
-.cnt-2 {
-  padding: 4rem 10rem;
-}
-
-.cnt-2 p {
-  width: 480px;
-  margin: 1.6rem auto;
-}
-
-#abt-logo {
-  width: 45%;
-}
-/* -----------CNT-1-------------- */
+/******************* CNT-1 *********************/
 
 .cnt-1 {
   height: 100%;
@@ -749,59 +576,39 @@ footer p {
   padding-bottom: 4rem;
   text-align: center;
   background: rgb(255, 255, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(238, 238, 238, 1) 100%
-  );
+  background:
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(238, 238, 238, 1) 100%
+    );
 }
 
 #fst-title {
+  font-size: 30px;
   color: #ec5242;
   margin: 0 auto;
-  font-size: 24px;
   margin-bottom: 7px;
+  width: 100%;
 }
 
 #scnd-title {
+  font-size: 45px;
   color: #ec5242;
   margin: 0 auto;
-  font-size: 42px;
   text-transform: uppercase;
   font-family: 'cocogoose', sans-serif;
   margin-bottom: 1rem;
+  line-height: 52px;
+  max-width: 100%;
 }
 
-#txt-cntct {
-  color: #272a31;
-  font-size: 12px;
-}
-
-/* -------------------CNT-2-------------------- */
+/********************** CNT-2 ***********************/
 
 .cnt-2 {
-  padding: 2rem 1rem;
+  padding: 1rem 4rem;
   text-align: center;
   border-bottom: 1px solid #d3d3d3;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 22px;
-  padding: 1.5rem;
-  margin-bottom: 20px;
-  font-weight: 100;
-}
-
-.section-title::after {
-  position: absolute;
-  content: '';
-  height: 2px;
-  left: 50%;
-  margin-top: 40px;
-  width: 40px;
-  transform: translate(-50%, 50%);
-  background-color: #ec5242;
 }
 
 .cnt-2 .section-title {
@@ -809,15 +616,8 @@ footer p {
   margin: 0 auto;
 }
 
-footer p {
-  font-size: 13px;
-  color: #272a31;
-  margin-left: 10px;
-  font-weight: bold;
-}
-
 .cnt-2 p {
-  max-width: 95%;
+  max-width: 100%;
   font-size: 13px;
   color: #272a31;
   font-weight: 100;
@@ -836,6 +636,4 @@ footer p {
 
 #abt-logo img {
   max-width: 100%;
-  padding-left: 13%;
-  padding-right: 13%;
 }

@@ -21,6 +21,12 @@
     margin: 0 auto;
   }
 
+  hr {
+    border: 1px solid #ec5242;
+    width: 40px;
+    margin-top: -10px;
+  }
+
   .top-nav {
     display: flex;
     height: 40px;
@@ -112,7 +118,7 @@
     margin-top: 0;
     width: 150px;
     height: 48px;
-    border: 4px solid #ec5242;
+    border: 3.5px solid #ec5242;
     font-size: 18px;
   }
 
@@ -331,10 +337,4 @@
     margin-left: 10px;
     font-weight: 100;
   }
-}
-
-hr {
-  border: 1px solid #ec5242;
-  width: 40px;
-  margin-top: -10px;
 }

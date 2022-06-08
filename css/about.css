@@ -78,7 +78,7 @@ nav {
     rgba(39, 42, 49, 1) 0%,
     rgba(172, 168, 168, 1) 100%
   );
-  color: var(--main-bg-color);
+  color: #fafafa;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,6 +140,8 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
+/************************Taste Container*************************/
 
 .taste-img {
   border: 1px solid #a7a7a7;
@@ -214,7 +216,7 @@ footer img {
   margin: 1.4rem auto;
 }
 
-/* --------------------------- Partner Section ------------------------ */
+/*********************Partner Section*********************/
 
 .partner-container {
   background-color: #272a31;
@@ -254,7 +256,7 @@ footer img {
   padding-top: 2.5rem;
 }
 
-/* ------------------------ Footer Section ------------------------ */
+/************************Footer Section*********************/
 
 footer {
   display: flex;
@@ -270,7 +272,7 @@ footer {
   font-weight: 100;
 }
 
-/* -------------CNT-1--------------- */
+/************************CNT-1************************/
 
 .cnt-1 {
   padding: 8rem 9rem;
@@ -303,7 +305,7 @@ footer {
   width: 45%;
 }
 
-/* -----------CNT-1-------------- */
+/************************CNT-1************************/
 
 .cnt-1 {
   height: 100%;
@@ -359,7 +361,7 @@ footer {
   font-size: 12px;
 }
 
-/* -------------------CNT-2-------------------- */
+/**********************CNT-2************************/
 
 .cnt-2 {
   padding: 2rem 1rem;
@@ -540,6 +542,8 @@ footer p {
     margin-top: -16px;
   }
 
+ /*****************Container********************/ 
+ 
   .main {
     display: flex;
     flex-direction: column;

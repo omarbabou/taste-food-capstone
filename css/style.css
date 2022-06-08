@@ -30,6 +30,12 @@ nav {
   position: absolute;
 }
 
+hr {
+  border: 1px solid #ec5242;
+  width: 40px;
+  margin-top: -10px;
+}
+
 .top-nav {
   display: none;
 }
@@ -78,7 +84,7 @@ nav {
     rgba(39, 42, 49, 1) 0%,
     rgba(172, 168, 168, 1) 100%
   );
-  color: var(--main-bg-color);
+  color: #fafafa;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,7 +147,7 @@ nav {
   justify-content: center;
 }
 
-/* -------------------container section---------------------- */
+/***********************container section**************************/
 .container {
   padding-bottom: 2%;
   margin-top: -5.5%;
@@ -216,7 +222,7 @@ nav {
   margin-top: -13px;
 }
 
-/* ------------------Card Section------------------ */
+/**********************Card Section**************************/
 .container-2 {
   background-color: #272a31;
   color: #fff;
@@ -300,7 +306,7 @@ footer img {
   padding-top: 1%;
 }
 
-/* -------------------------- Menu Section --------------------------- */
+/**************************Menu Section *******************************/
 
 .menu-container {
   padding: 10px;
@@ -386,7 +392,7 @@ footer img {
   margin-top: -12px;
 }
 
-/* --------------------------- Partner Section ------------------------ */
+/*************************Partner Section******************************/
 
 .partner-container {
   background-color: #272a31;
@@ -426,7 +432,7 @@ footer img {
   padding-top: 2.5rem;
 }
 
-/* ------------------------ Footer Section ------------------------ */
+/*****************************Footer Section**************************/
 
 footer {
   display: flex;
@@ -440,10 +446,4 @@ footer {
   color: #272a31;
   margin-left: 10px;
   font-weight: 100;
-}
-
-hr {
-  border: 1px solid #ec5242;
-  width: 40px;
-  margin-top: -10px;
 }

@@ -19,7 +19,8 @@ clone repo: https://github.com/omarbabou/taste-food-capstone-.git
 
 ### Live
 
-To see live project go to: [Live_demo](https://kandy-peter.github.io/ELC-Congo-First-capston-project/)
+To see live project go to: [Live_demo](https://deploy-preview-1--lucent-granita-ea8c9f.netlify.app)
+
 ### Project Demo
 
 check this [Loom](https://www.loom.com/share/03e1bd463d8849e9bd98c59566d1a777) link to watch the video.

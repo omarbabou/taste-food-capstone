@@ -19,7 +19,7 @@ clone repo: https://github.com/omarbabou/taste-food-capstone-.git
 
 ### Live
 
-To see live project go to: [Live_demo](https://deploy-preview-1--lucent-granita-ea8c9f.netlify.app)
+To see live project go to: [Live_demo](https://deploy-preview-1--lucky-cactus-7c508f.netlify.app/)
 
 ### Project Demo
 

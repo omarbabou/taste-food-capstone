@@ -1,0 +1,639 @@
+@font-face {
+  font-family: 'cocogoose';
+  src: url('fonts/Cocogoose.otf');
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: absolute;
+}
+
+hr {
+  border: 1px solid #ec5242;
+  width: 40px;
+  margin-top: -10px;
+}
+
+.top-nav {
+  display: none;
+}
+
+.toggle {
+  display: block;
+  font-size: 30px;
+  color: #272a31;
+  z-index: 10;
+  padding: 1.2rem;
+  width: 100%;
+}
+
+.open-icon {
+  display: block;
+  left: 1rem;
+  padding-top: 0;
+}
+
+.close-icon {
+  display: none;
+}
+
+.open-menu .open-icon {
+  display: none;
+}
+
+.open-menu .close-icon {
+  display: block;
+  color: #fafafa;
+  padding-top: 0;
+}
+
+.menu-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 44rem;
+  z-index: 1;
+  padding: 2rem;
+  background: rgb(39, 42, 49);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(39, 42, 49, 1) 0%,
+      rgba(172, 168, 168, 1) 100%
+    );
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-100%);
+  transition: transform 1.5s;
+  text-align: center;
+}
+
+.menu-list li,
+.menu-list a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 24px;
+  transition: all 0.4s ease-out;
+}
+
+.menu-list li {
+  margin: 1rem;
+}
+
+.menu-list a {
+  transition: all 0.4s ease-out;
+}
+
+.menu-btn {
+  margin-top: 2rem;
+  width: 170px;
+  height: 60px;
+  border: 3px solid #ec5242;
+  background: none;
+  color: #ec5242;
+  font-size: 20px;
+  transition: all 0.4s ease-out;
+}
+
+.menu-list a:hover {
+  transform: scale(1.2);
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.menu-btn:hover {
+  transform: scale(1.1);
+}
+
+.open-menu .menu-list {
+  transform: translateX(0);
+  z-index: 5;
+}
+
+#logo {
+  display: none;
+}
+
+#logo a {
+  color: #272a31;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/************************ Taste Container *************************/
+
+.taste-img {
+  border: 1px solid #a7a7a7;
+  padding: 15px;
+  padding-left: 10%;
+  width: 300px;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 167px;
+  margin: 1.5rem auto;
+  margin-top: 15px;
+}
+
+footer img {
+  width: 65%;
+  height: 100px;
+  margin-top: 18px;
+}
+
+.taste-img img {
+  width: 88%;
+}
+
+#taste-txt {
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #272a31;
+}
+
+.taste-container {
+  padding: 2.7rem;
+}
+
+.food1 {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(247, 104, 22, 0.521) 100%,
+      rgba(235, 235, 235, 0.432) 100%
+    ),
+    url('/graphics/chef-f.png') center center / cover;
+}
+
+.food2 {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(247, 104, 22, 0.521) 100%,
+      rgba(235, 235, 235, 0.432) 100%
+    ),
+    url('/graphics/chef-ft.png') center center / cover;
+}
+
+.food1,
+.food2 {
+  height: 200px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.4rem auto;
+}
+
+/************************  Footer Section  *********************/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #272a31;
+  height: 168px;
+}
+
+.footer-copy {
+  font-size: 15px;
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 100;
+}
+
+/************************  CNT-1  ************************/
+
+#txt-cntct {
+  color: #272a31;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+/**********************  CNT-2  ************************/
+
+.section-title {
+  text-align: center;
+  font-size: 22px;
+  padding: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+
+.section-title::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 50%;
+  margin-top: 40px;
+  width: 30px;
+  transform: translate(-50%, 50%);
+  background-color: #ec5242;
+}
+
+footer p {
+  font-size: 13px;
+  color: #272a31;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 5px;
+    max-width: 100%;
+  }
+
+  header {
+    height: 110px;
+    box-shadow: 2px 0 10px #adadad;
+    background-color: #fff;
+    min-width: 598px;
+  }
+
+  nav {
+    position: relative;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .top-nav {
+    display: flex;
+    height: 40px;
+    background-color: #272a31;
+  }
+
+  .top-nav ul {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #d3d3d3;
+  }
+
+  .top-nav li {
+    margin: 1.3rem 10px;
+    list-style: none;
+  }
+
+  .top-nav a {
+    color: #d3d3d3;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  #logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-list {
+    position: relative;
+    height: 100%;
+    width: 70%;
+    background: rgba(39, 42, 49, 0);
+    color: #272a31;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(0);
+    transition: none;
+    text-align: center;
+  }
+
+  .menu-list li,
+  .menu-list a {
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    transition: all 0.2s ease-out;
+  }
+
+  .menu-list a:hover {
+    transform: scale(1.2);
+    border-bottom: none;
+    color: #ec5242;
+  }
+
+  #logo a {
+    color: #272a31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  footer img {
+    width: 16%;
+    height: 80px;
+    margin-top: 14px;
+    object-fit: cover;
+  }
+
+  #logo img {
+    width: 106px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .open-menu {
+    display: none;
+  }
+
+  .menu-list ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu-btn {
+    margin-top: 0;
+    width: 150px;
+    height: 48px;
+    border: 3.5px solid #ec5242;
+    font-size: 18px;
+  }
+
+  /*****************  Container  ********************/
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+  }
+
+  section {
+    min-width: 100vw;
+  }
+
+  .container {
+    padding: 8rem 9rem;
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+    color: #172b4d;
+    background-image: url('/graphics/desk.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1098px;
+    margin-top: 0;
+  }
+
+  .container .title {
+    color: #ec5242;
+    margin: 0 auto;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 912px;
+    margin-bottom: 20px;
+    margin-left: 183px;
+    font-weight: 100;
+  }
+
+  .container .second-title {
+    width: 844px;
+    line-height: 61px;
+    color: #ec5242;
+    margin: 0 auto;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: 'cocogoose', sans-serif;
+    margin-bottom: 1rem;
+    padding-right: 5rem;
+    padding-left: 11rem;
+  }
+
+  .container .desc {
+    width: 670px;
+    font-size: 14px;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    margin-left: 18rem;
+  }
+
+  .container .cnt-text {
+    font-size: 12px;
+    padding: 5%;
+    padding-right: 13%;
+    padding-left: 17%;
+  }
+
+  .container-2 {
+    display: none;
+  }
+
+  .container-2 p {
+    width: 95%;
+    font-size: 14px;
+    color: #272a31;
+    padding-top: 0;
+    padding-left: 22%;
+    padding-right: 1%;
+    margin-top: -60px;
+    font-weight: 100;
+  }
+
+  .taste-img {
+    border: 1px solid #a7a7a7;
+    padding: 15px;
+    padding-left: 10%;
+    width: 300px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 167px;
+    margin: 1.5rem auto;
+    margin-top: 15px;
+  }
+
+  .taste-container {
+    padding: 2.7rem;
+    min-width: 598px;
+  }
+
+  .food1,
+  .food2 {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .tst-food {
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .tst-food h3 {
+    font-size: 32px;
+    margin: 1rem;
+  }
+
+  .tst-food p {
+    font-size: 21px;
+    margin: 1rem;
+  }
+
+  .partner-container {
+    min-width: 598px;
+  }
+
+  .list-partner {
+    width: 40%;
+    margin: 2rem auto;
+    flex-wrap: nowrap;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    height: 140px;
+    min-width: 598px;
+    background-color: #272a31;
+  }
+
+  .footer-copy {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 16px;
+    margin-top: 32px;
+    font-weight: 100;
+  }
+}
+
+/****************** CNT-1 *******************/
+
+.cnt-1 h2 {
+  width: 700px;
+}
+
+#descrpt {
+  border: 1px solid rgb(219, 219, 219);
+  background-color: #fafafa;
+  margin: 1.7rem auto;
+  font-weight: 100;
+  max-width: 590px;
+  font-size: 14px;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
+/******************* CNT-1 *********************/
+
+.cnt-1 {
+  height: 100%;
+  color: #272a31;
+  padding: 2rem 1rem;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(238, 238, 238, 1) 100%
+    );
+}
+
+#fst-title {
+  font-size: 30px;
+  color: #ec5242;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+#scnd-title {
+  font-size: 45px;
+  color: #ec5242;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: 'cocogoose', sans-serif;
+  margin-bottom: 1rem;
+  line-height: 52px;
+  max-width: 100%;
+}
+
+/********************** CNT-2 ***********************/
+
+.cnt-2 {
+  padding: 1rem 4rem;
+  text-align: center;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.cnt-2 .section-title {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cnt-2 p {
+  max-width: 100%;
+  font-size: 13px;
+  color: #272a31;
+  font-weight: 100;
+}
+
+#abt-logo {
+  max-width: 400px;
+  border: 1px solid #a7a7a7;
+  padding: 2px;
+  margin: 1.5rem auto;
+}
+
+.partners img {
+  width: 100px;
+}
+
+#abt-logo img {
+  max-width: 100%;
+}

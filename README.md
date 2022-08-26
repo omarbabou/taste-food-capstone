@@ -6,7 +6,7 @@
 
 This is a screenshot of my capstone
 
-![screenshot](/desk.png) ![screenshot](/mobile.jpg)
+![screenshot](/desk.png) ![screenshot](/graphics/tmobile.png)
 
 ## Built With
 
@@ -15,11 +15,11 @@ This is a screenshot of my capstone
 
 ### Prerequisites
 
-clone repo: https://github.com/omarbabou/taste-food-capstone-.git
+clone repo: `https://github.com/omarbabou/taste-food-capstone-.git`
 
 ### Live
 
-To see live project go to: [Live_demo](https://deploy-preview-1--lucky-cactus-7c508f.netlify.app/)
+To see live project go to: [Live_demo](https://idriss-omar-tasty-food-capstone.netlify.app/)
 
 ### Project Demo
 
@@ -27,19 +27,19 @@ check this [Loom](https://www.loom.com/share/03e1bd463d8849e9bd98c59566d1a777) l
 
 ### Install
 
-run npm install to install dependencies.
+run `npm install` to install dependencies.
 
 ### Command
 
 These commands are here to help you for how to check errors in your code using Linter
 
-\*to install the webhint run npm init -y to initialize the package and create package.json
+\*to install the webhint run `npm init -y` to initialize the package and create package.json
 
-then run npm install --save-dev hint@6.x After creating the .hintrc file, run npx hint . to ckeck if there's an error.
+then run `npm install --save-dev hint@6.x `After creating the .hintrc file, `run npx hint . `to ckeck if there's an error.
 
-_to install the stylelint that help you to avoid errors in styles code run: npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x Then run npx stylelint "\*\*/_.{css,scss}" after creating a .stylelint.json file
+_to install the stylelint that help you to avoid errors in styles code run: `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x` Then run `npx stylelint "\*\*/_.{css,scss}"` after creating a .stylelint.json file
 
-To install Eslint run npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x And to fix lint errors run npx eslint .
+To install Eslint run `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x` And to fix lint errors run `npx eslint .`
 
 ## Author 1
 
